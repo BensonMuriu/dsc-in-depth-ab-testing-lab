@@ -19,13 +19,13 @@ def welch_df(a, b):
     
     """ Calculate the effective degrees of freedom for two samples. This function returns the degrees of freedom """
     
-    s1 = a.var(ddof=1) 
-    s2 = b.var(ddof=1)
+    p1 = a.var(ddof=1) 
+    p2 = b.var(ddof=1)
     n1 = a.size
     n2 = b.size
     
-    numerator = (s1/n1 + s2/n2)**2
-    denominator = (s1/ n1)**2/(n1 - 1) + (s2/ n2)**2/(n2 - 1)
+    numerator = (p1/n1 + p2/n2)**2
+    denominator = (p1/ n1)**2/(n1 - 1) + (p2/ n2)**2/(n2 - 1)
     
     return numerator/denominator
 

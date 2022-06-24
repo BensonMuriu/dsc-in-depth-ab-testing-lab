@@ -46,18 +46,18 @@ Now perform a similar statistical test comparing the AdjustedCompensation of tho
 ```
 
     Median Values: 
-    s1:74131.92 
-    s2:38399.4
+    p1:74131.92 
+    p2:38399.4
     Sample sizes: 
-    s1: 967 
-    s2: 1107
+    p1: 967 
+    p2: 1107
     Welch's t-test p-value: 0.1568238199472023
     
     
     Repeated Test with Ouliers Removed:
     Sample sizes: 
-    s1: 964 
-    s2: 1103
+    p1: 964 
+    p2: 1103
     Welch's t-test p-value with outliers removed: 0.0
 
 
